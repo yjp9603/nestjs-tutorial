@@ -3,7 +3,7 @@ import { CatsService } from './cats.service';
 
 @Controller('cats')
 export class CatsController {
-  constructor(private readonly catsService: CatsService) {}
+  constructor(private readonly catsService: CatsService) {} //의존성 주입
 
   // cats/
   @Get('/')
